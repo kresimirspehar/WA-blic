@@ -15,7 +15,7 @@
       <v-card-text> Datum: {{ abt }} </v-card-text>
       <v-card-actions>
         <router-link :to="{ name: 'About', params: { isbn: id } }">
-          <v-btn rounded color="primary" dark>DETALJI</v-btn>
+          <v-btn rounded color="error">DETALJI</v-btn>
         </router-link>
       </v-card-actions>
     </v-card>
